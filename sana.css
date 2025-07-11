@@ -1,0 +1,202 @@
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.logo{
+    color: blueviolet;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}
+.header{
+    background-image: url('../images/Hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    
+    
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px  200px;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(175, 54, 199);
+    font-weight: bold;
+    font-size: 20px;
+    
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: none;
+   
+}
+.main button{
+    color: white;
+    background-color: rgb(175, 54, 199);
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: none;
+
+
+}
+.title{
+    text-decoration: solid;
+    text-align: center;
+}
+
+div li{
+    text-align: center;
+    
+}
+.banner-content{
+    width: auto;
+    font-size: 30px;
+    margin: 200px;
+    
+    
+}
+.about-container{
+    /* text-align: center; */
+    width: 517px;
+    
+}
+.about{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 160px 110px;
+    align-items: center;
+}
+
+
+.wc-mini{
+    border-radius: 13px;
+}
+.button-2{
+    color: white;
+    background-color: rgb(175, 54, 199);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.p-1{
+    font-size: 18px;
+    color: rgb(190, 210, 228);
+}
+.responsive-result{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: rgb(201, 204, 238);
+ margin: 190px 180px;
+ border-radius: 15px;
+ 
+   
+}
+.product{
+    display:flex;
+    align-items: center;
+    gap:70px;
+    font-size: 80px;
+    font-style: bold;
+
+    
+}
+
+.text-aling-center{
+    text-align: center;
+}
+.comment{
+    text-align: center;
+}
+.date{
+    display: flex;
+    text-align: center;
+}
+.ready-focus{
+    width: 1140px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+.ready-comment{
+    text-align: center;
+    margin: 10px ;
+    background-color: rgb(193, 212, 228);
+    padding: 80px 60px;
+    border-radius: 20px;
+}
+.get{
+     color: white;
+    background-color: rgb(175, 54, 199);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+}
+.wc-big{
+    border-radius: 10px;
+}
+.clint-reviewer{
+    max-width: 1140px;
+    margin: auto;
+}
+.clint-reviewer>h1{
+    font-size: 42px;
+    text-align:center ;
+}
+.card-list{
+    margin-top: 50px;
+    display:flex ;
+    gap: 20px;
+}
+.clint-info{
+    display: flex;
+    gap: 20px;
+    
+}
+.clint-pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+footer{
+    padding: 150px 130px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 80%%;
+    justify-content: ;
+
+}
+
+footer input[type="text"],  footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: ;
+}    
