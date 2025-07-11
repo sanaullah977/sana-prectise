@@ -19,7 +19,7 @@ li a{
     text-decoration: none;
 }
 .header{
-    background-image: url('../images/Hero-bg.png');
+    background-image: url('images/Hero-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -170,7 +170,14 @@ div li{
 .clint-reviewer{
     max-width: 1140px;
     margin: auto;
-    padding: ;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    box-shadow: 10px 10px 20px rgb(207, 203, 203);
+    
+    
+    
+    
+   
 }
 .clint-reviewer>h1{
     font-size: 42px;
@@ -229,5 +236,25 @@ footer input[type="text"],  footer input[type="email"], footer textarea{
     width: 500px;
     height: 80px;
 }
-
-  
+.last-one{
+    height: 290px;
+    width: auto;
+    text-align: center;
+    align-items: center;
+}
+.last-one>h1{
+    color: blueviolet;
+    font-size: 85px;
+}
+.last-one>p{
+    font-size: 40px;
+    
+}
+.last-one>ul{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+ul:hover{
+    color: lightgray;
+}
